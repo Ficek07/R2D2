@@ -1,0 +1,35 @@
+/* Styly pro sál a sedadla */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+#movieSelect {
+    margin-bottom: 10px;
+}
+
+.hall {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    width: 22%;
+    
+}
+
+.seat {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border: 1px solid #aaa;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.occupied {
+    background-color: #ff0000; /* Barva pro obsazená místa */
+}
